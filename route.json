@@ -1,0 +1,12 @@
+[
+  {
+    "route": "Route 101",
+    "status": "On Time",
+    "nextArrival": "9:00 AM"
+  },
+  {
+    "route": "Route 202",
+    "status": "Delayed",
+    "nextArrival": "9:20 AM"
+  }
+]

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Speedo-mile | Routes</title>
+  <link rel="shortcut icon" href="https://img.icons8.com/ios-filled/50/000000/bus.png" />
+  
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  
+  <link rel="stylesheet" href="style.css" />
+  </style>
+</head>
+<body>
+
+  <!-- 🌐 Navbar -->
+  <nav>
+    <div class="logo">
+      <img src="https://img.icons8.com/ios-filled/50/000000/bus.png" alt="Bus Logo" />
+      Speedo-mile
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="routes.html" class="active">Routes</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🔍 Search Bar -->
+  <div class="search-container">
+    <input type="text" id="routeSearch" placeholder="🔍 Search for a route..." />
+  </div>
+
+  <!-- 🗺️ Map Section -->
+  <section>
+    <h2 class="form-heading">📍 Map View</h2>
+    <div id="map"></div>
+  </section>
+
+  <!-- 🚌 Routes Display -->
+  <section>
+    <h2 class="form-heading">🛣️ Available Bus Routes</h2>
+
+    <!-- Cards will be loaded here -->
+    <div id="routes-container"></div>
+     <div id="routeDetails" class="route-card"></div>
+    <!-- Loading spinner -->
+    <div id="loading" class="loading-container">
+      <div class="bus-loader">🚌 Loading routes...</div>
+    </div>
+  </section>
+
+  <!--Footer -->
+  <footer>
+    &copy; 2025 Speedo-mile | All Rights Reserved
+  </footer>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
