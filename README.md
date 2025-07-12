@@ -23,6 +23,3 @@ Speedo-Mile is a Final Year Project designed to help users view and explore Laho
 3. Run `npm install` in the backend folder  
 4. Start the server using `node app.js`  
 5. Open `index.html` from the frontend to view the app
-
-## Folder Structure
-
